@@ -1,0 +1,86 @@
+/* Global styles */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: top/contain no-repeat url(../assets/images/background-pattern-desktop.svg);
+    background-color:  hsl(275, 100%, 97%);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(292, 42%, 14%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inactive p {
+    display: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* FAQ card */
+.faq-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    border-radius: 10px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.faq-banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.faq-banner img {
+    width: 40px;
+    height: 40px;
+}
+
+.faq-banner h1 {
+    margin-left: 1.5rem;
+}
+
+.faq-list {
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.faq-list li {
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+
+.faq-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+
+.faq-item-header img {
+    height: 30px;
+    width: 30px;
+}
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
