@@ -105,3 +105,23 @@ p {
 /* Attribution */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0 rem 1.5rem;
+        gap: 0.5rem;
+        background: top no-repeat url(../assets/images/background-pattern-desktop.svg);
+        font-size: 14px;
+    }
+    
+    .faq-container {
+        width: 95vw;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
